@@ -1,0 +1,253 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+.cvContainer {
+    height: 297mm;
+    width: 210;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #c9c2c2;
+}
+.cvLeft {
+    width: 38%;
+    height: 290mm;
+    background-color: rgb(20, 20, 20);
+}
+.image {
+    width: 100%;
+    height: 250px;
+    background-image: url(brickk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cvLeftDivs {
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.cvLeftDivs h2 {
+    color: gray;
+    font-size: 23px;
+    font-weight: 500;
+}
+.cvLeftDivs span {
+    margin-left: 10px;
+}
+.fa-solid {
+    color: teal;
+}
+.icon {
+    margin-top: 20px;
+}
+.icons {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: #c9c2c2;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.aboutP {
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 11pt;
+}
+.skill {
+    width: 90%;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 10pt;
+    margin-top: 15px;
+}
+.bgColor {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(49, 47, 47);
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.p85 {
+    height: 100%;
+    width: 85%;
+    background-color: teal;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.p80 {
+    height: 100%;
+    width: 80%;
+    background-color: teal;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.p70 {
+    height: 100%;
+    width: 70%;
+    background-color: teal;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.turkish {
+    height: 100%;
+    width: 100%;
+    background-color: teal;
+    border-radius: 15px;
+}
+.english {
+    height: 100%;
+    width: 85%;
+    background-color: teal;
+    border-radius: 15px;
+}
+.arabic {
+    height: 100%;
+    width: 25%;
+    background-color: teal;
+    border-radius: 15px;
+}
+.fa-user {
+    margin-top: 10px;
+}
+.fa-asterisk {
+    margin-top: 10px;
+}
+.fa-earth-europe {
+    margin-top: 10px;
+}
+
+.cvRight {
+    width: 60%;
+    height: 290mm;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.educationDiv {
+    width: 100%;
+    height: 330px;
+    background-color: rgb(20, 20, 20);
+}
+.educationDiv h1 {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.educationDiv span {
+    color: gray;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.eduDiv {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: gray;
+}
+.eduDiv li {
+    margin-top: 10px;
+}
+.fa-calendar-days {
+    font-size: 14pt;
+}
+.date {
+    margin-left: 15px;
+}
+.lidate {
+    display: flex;
+    color: teal;
+    font-size: 12pt;
+    font-family: cursive;
+}
+.workExpDiv {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(20, 20, 20);
+    margin-top: 30px;
+}
+.workExpDiv h1 {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.workExpDiv span {
+    color: gray;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.workDiv {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: gray;
+}
+.workDiv li {
+    margin-top: 10px;
+}
+.interestDiv {
+    width: 100%;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    margin-top: 35px;
+}
+.interestDiv h1 {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.interestDiv span {
+    color: gray;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.interests {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    padding-bottom: 40px;
+    margin-top: 25px;
+    gap: 15px 15px;
+    color: teal;
+    opacity: .7;
+}
+.interest {
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tr {
+    background-color: rgb(8, 8, 8);
+}
